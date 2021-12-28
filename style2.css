@@ -55,3 +55,14 @@ html{
 
      
  }
+ 
+ .three{
+    width: 100%;
+    height: 50%;
+ }
+ 
+ #three{
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+ }
