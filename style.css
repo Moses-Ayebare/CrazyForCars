@@ -1,13 +1,4 @@
 
-/*
-html{
-   background-image:url(Mercedes.jpg);
-   height: 100%;
-   width: 100%;
-   background-size:center;
-   
-}
-*/
 .topnavbar {
    /* background-color:#333 ; */
    overflow: hidden;
@@ -37,9 +28,14 @@ html{
    margin-top: -135px;
    margin-right: 400px;
 }
-.benz{
-    padding-top: 0;
+#benz{
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+    
+
 }
+
 #home .home-words{
    position: absolute;
    bottom: 0;
@@ -53,10 +49,11 @@ html{
    text-align: center;
    padding: 0 15px;
 }
+
 #home h1{
    font-family: Georgia;
-   color: palegreen;
-   font-size: 60px;
+   color: darkslategray;
+   font-size: 60px ;
    padding: 5px 10px;
    margin-bottom: 80px;
    border-radius: 50px;
@@ -67,13 +64,13 @@ html{
 #home h2{
    font-style:italic;
    font-family:'Courier New', Courier, monospace;
-   color:palegreen;
+   color:darkslategray;
    margin-top: -7%;
    font-size: 20px;
 }
 #home h3{
    font-family: 'Lucida Sans';
-   color:white;
+   color:whitesmoke;
    margin-top: 10px;
    font-family: 'Courier New', Courier, monospace;
 }
@@ -91,7 +88,10 @@ html{
 }
 
 #Services {
-   background-image:url(wallpaperflare.com_wallpaper.jpg);
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/car.webp);
+   
+   max-width: 100%;
+   height: auto;
    
 }
 
@@ -99,11 +99,18 @@ html{
    border-radius: 2%;
    border-width: thick;
 }
+
 #bottom{
-   background-position: center;
-   background-size: cover;
-   background-color: palegreen;
-   margin-bottom: 3%;
+   margin-top: -15px;
+  padding-bottom: 30px;
+  background: black;
+}
+#bottom-words{
+   font-family: 'Courier New', Courier, monospace;
+   color: palegreen;
+   text-align: center;
+   font-size: larger;
+   position: relative;
 }
 #card-img-top{
    width: 100%;
@@ -116,10 +123,11 @@ html{
 #c-words{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-style:italic;
+   color: palegreen;
 }
 #logo{
-   margin-right: 680px;
-   color: palegreen;
+   float: left;
+   
    margin-top:-10px;
 }
 #About h1{
@@ -132,14 +140,103 @@ html{
    text-align: center;
    font-style: italic;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: lightskyblue;
    
 }
-
+.About-body{
    
-
+   margin-left: 300px;
+   margin-right: 300px;
+   font-family: cursive;
+   text-align: center;
+   color:lightskyblue;
+   
+}
 #About{
-   background-image: url(sportsuperhyper.avif);
+   
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/ferrari.jpg);
    background-position:center;
    background-size:cover;
    margin-top: -25px;
+   display:auto;
+}
+#card-design{
+   background-color: black;
+   
+}
+#card-design.responsive :hover{
+  background-color: darkslateblue;
+  color: lightskyblue;
+}
+#Contact{
+   text-align: center;
+}
+.responsive{
+   max-width: 100%;
+   height: auto;
+}
+.home-words{
+   max-width: 100%;
+   height: auto;
+}
+#contact-1{
+   text-align: center;
+   color: palegreen;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   margin-bottom: 30px;
+}
+#contact-2{
+   text-align: center;
+   color: palegreen;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+}
+form{
+   margin-top: 50px;
+   text-align: center;
+
+}
+input{
+   display: block;
+width: 350px;
+height: 40px;
+margin: 20px;
+border: none;
+outline: none;
+font-size: 20px;
+border-bottom: 1px solid white;
+background:transparent;
+color: white;
+}
+#Contact-Us{
+   margin-top: -20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/koenigsegg.jpg);
+   background-size: cover;
+
+}
+button{
+   
+   margin-right: 70px;
+   width: 200px;
+   height: 40px;
+   font-size: 20px;
+   border-radius: 50px;
+   
+   border: none;
+   color: black;
+   font-family: cursive;
+   }
+   #button.yeye :hover{
+     background-color: palegreen;
+   }
+
+.contact-info{
+   
+   color: palegreen;
 }
